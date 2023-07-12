@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+.navbar{
+    background-color: rgba(80, 44, 224, 0.533);
+    color: white;
+    border-radius: 20px;
+}
+ .navbar li{
+    float: left;
+    list-style: none;   /*remove bullets*/ 
+    padding: 12px 20px;  
+}
+.navbar ul{
+    overflow: auto;
+}
+.search{
+    padding: 10px 0px 0px 950px;
+}
+.search input{
+    border-radius: 5px;
+}
+
+.navbar li a{
+    text-decoration: none;  /*removes underline of a url*/
+    color: white;
+}
+.navbar a:hover{
+    color: black;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+}
+.a{
+ height: 200px;
+ width: 150px;
+ border: 3px solid red;
+ margin: 100px;
+ padding: 10px;
+ border-radius: 25px;
+}
+.b{
+ height: 200px;
+ width: 150px;
+ border: 3px solid rgb(203, 30, 30);
+ margin: 100px;
+ padding: 10px;
+ background-color: salmon;
+ opacity: 0.8;
+ border-radius: 25px;
+}
+.c{
+ height: 200px;
+ width: 150px;
+ border: 3px solid red;
+ margin: 100px;
+ padding: 10px;
+ border-radius: 25px;
+}
+</style>
+</head>
+<body style="background-image:url(fitness.png) ;">
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Search</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">options</a></li>
+                <li><a href="#">Join Us</a></li>
+                <li><a href="#">Membership</a></li>
+                <div class="search">
+                    <input type="search" name="search" id="search" placeholder="Programs">
+                </div>
+            </ul>   
+        </nav>
+    </header>
+</body>
+<h1 style="font-family: 'Courier New', Courier, monospace;font-size: 40px;">RIDE TO FITNESS</h1>
+<div class="main">
+<div class="a">
+    <h3 style="text-align: center;">Personal</h3>
+    <li>yoga</li>
+    <li>Fitness concerned</li>
+    <li>Health maintain</li>
+ </div>
+<div class="b"><h3 style="text-align: center;">Exclusive</h3>
+    <li>yoga</li>
+    <li>Fitness concerned</li>
+    <li>Health maintain</li></div>
+<div class="c"><h3 style="text-align: center;">Zumba</h3>
+    <li>yoga</li>
+    <li>Fitness concerned</li>
+    <li>Health maintain</li></div>
+</div>
+</html>
